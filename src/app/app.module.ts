@@ -19,6 +19,7 @@ import { CardRosaButtonComponent } from './card-rosa-button/card-rosa-button.com
   imports: [
     BrowserModule,
     AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
