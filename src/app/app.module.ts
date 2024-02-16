@@ -9,6 +9,7 @@ import { CardButtonComponent } from './card-button/card-button.component';
 import { CardRosaButtonComponent } from './card-rosa-button/card-rosa-button.component';
 import { CardsModule } from './cards/cards.module';
 import { CardButtonCancelComponent } from './card-button-cancel/card-button-cancel.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { CardButtonCancelComponent } from './card-button-cancel/card-button-canc
     CardsModule,
     
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
