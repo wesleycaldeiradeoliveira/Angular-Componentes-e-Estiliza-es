@@ -18,7 +18,11 @@
     &__price {
         font-weight: 600;
         font-size: 40px;
-    }
-
-   
+    } 
 }
+:host ::ng-deep #primeiro .card-button-cancel {
+    background-color: rgb(81, 160, 134) !important;
+    } 
+    :host ::ng-deep #segundo .card-button-cancel {
+        background-color: rgb(95, 81, 160) !important;
+        } 
